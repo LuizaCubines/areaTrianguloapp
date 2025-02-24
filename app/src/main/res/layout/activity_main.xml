@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0B3E2"
+    android:backgroundTint="#DCB2E4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Área Triângulo:"
+        android:textColorLink="@color/black" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:hint="Digite a base do triângulo:"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:ems="10"
+        android:hint="Digite a altura do triângulo:"
+        android:inputType="number|numberDecimal" />
+
+    <Button
+        android:id="@+id/buttoncalcular"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/material_dynamic_tertiary10"
+        android:backgroundTint="#9C27B0"
+        android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:text="Resultado:" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="327dp"
+        app:srcCompat="@drawable/areatri" />
+
+</LinearLayout>
